@@ -8,5 +8,3 @@ __pycache__
 .DS_Store
 .git
 .gitignore
-*.onnx
-models/*.onnx
