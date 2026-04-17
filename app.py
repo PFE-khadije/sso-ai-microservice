@@ -9,7 +9,9 @@ from routes.embed import embed_bp
 from routes.verify import verify_bp
 from routes.verify_id import verify_id_bp
 from models import ModelService
-#from routes.liveness import liveness_bp
+from routes.liveness import liveness_bp
+app.register_blueprint(liveness_bp)
+
 
 
 logging.basicConfig(
